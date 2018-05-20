@@ -21,7 +21,7 @@
             android:padding="16dp">
 
             <TextView
-                android:id="@+id/homeTeamScore"
+                android:id="@+id/homeTeamLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="HOME"
@@ -30,6 +30,7 @@
                 android:padding="8dp"/>
 
             <TextView
+                android:id="@+id/homeTeamScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -69,12 +70,14 @@
 
 
             <Button
+                android:id="@+id/homeGoalButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Goal"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"/>
             <Button
+                android:id="@+id/homeShotsOnGoalButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Shots on Goal"
@@ -82,6 +85,7 @@
                 android:layout_margin="8dp"/>
 
             <Button
+                android:id="@+id/homePowerPlayButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Power Play"
@@ -100,7 +104,7 @@
             android:padding="16dp">
 
             <TextView
-                android:id="@+id/awayTeamScore"
+                android:id="@+id/awayTeamLabel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="AWAY"
@@ -109,6 +113,7 @@
                 android:padding="8dp"/>
 
             <TextView
+                android:id="@+id/awayTeamScore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -146,12 +151,14 @@
 
 
             <Button
+                android:id="@+id/awayGoalButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Goal"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"/>
             <Button
+                android:id="@+id/awayShotsOnGoalButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Shots on Goal"
@@ -159,6 +166,7 @@
                 android:layout_margin="8dp"/>
 
             <Button
+                android:id="@+id/awayPowerPlayButton"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Power Play"
