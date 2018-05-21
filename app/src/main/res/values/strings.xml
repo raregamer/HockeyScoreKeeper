@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HockeyScoreKeeper</string>
+    <string name="period">PERIOD</string>
+    <string name="home">HOME</string>
+    <string name="goal">Goal</string>
+    <string name="away">AWAY</string>
+    <string name="shots_on_goal">Shots on Goal</string>
+    <string name="periodadd">Period</string>
+    <string name="new_game">New Game</string>
+    <string name="power_play">POWER PLAY</string>
 </resources>
